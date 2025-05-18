@@ -1,0 +1,195 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    background-color: #000000;
+    color: #333;
+}
+
+header {
+    background-color: #000002;
+    color: #fff;
+    padding: 10px 0; /* Diminui a altura do cabeçalho */
+    text-align: center;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+header h1 {
+    margin: 0; /* Remove margens para evitar espaços indesejados */
+}
+
+.nav-links {
+    list-style-type: none; /* Remove marcadores */
+    padding: 0;
+    display: flex; /* Exibe os itens em linha */
+    justify-content: center; /* Centraliza os itens horizontalmente */
+}
+
+.nav-links li {
+    margin: 0 10px; /* Espaçamento entre os botões */
+}
+
+.nav-links a {
+    background-color: #35495e; /* Cor de fundo dos botões */
+    color: #fff; /* Cor do texto dos links */
+    text-decoration: none; /* Remove o sublinhado */
+    padding: 10px 15px; /* Espaçamento interno */
+    border-radius: 20px; /* Bordas arredondadas */
+    transition: background-color 0.3s, transform 0.3s, color 0.3s; /* Transições suaves */
+}
+
+.nav-links a:hover {
+    background-color: #d98b2f; /* Cor do botão laranja ao passar o mouse */
+    color: #ffffff; /* Mantém a cor branca do texto */
+    transform: scale(1.05); /* Aumenta o botão de forma suave ao passar o mouse */
+}
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: auto;
+    padding: 0 30px;
+}
+
+.logo h1 {
+    margin: 0;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+}
+
+.nav-links li {
+    margin-right: 20px;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: #fff;
+    transition: color 0.3s;
+}
+
+.nav-links a:hover {
+    color: #76d7c4;
+}
+
+.hero {
+    height: 400px;
+    background: url('sua-imagem.jpg') no-repeat center center/cover;
+    text-align: center;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+
+section {
+    padding: 60px 30px;
+    text-align: center;
+}
+
+.project {
+    background: #fff;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+footer {
+    background: #000000;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
+/* Estilo para o contêiner de contato */
+.contato-container {
+    background-color: #001f3f; /* Azul marinho */
+    color: white; /* Cor do texto dentro do contêiner */
+    border-radius: 20px; /* Bordas arredondadas */
+    padding: 20px; /* Espaciamento interno */
+    margin-top: 20px; /* Espaço acima do contêiner */
+}
+
+/* Estilo para os campos do formulário */
+#contact-form input, 
+#contact-form textarea {
+    width: 100%; /* Ocupa toda a largura do contêiner */
+    padding: 10px; /* Espaçamento interno */
+    margin: 10px 0; /* Espaço entre os campos */
+    border-radius: 20px; /* Bordas arredondadas */
+    border: none; /* Remove borda padrão */
+}
+
+/* Estilo do botão */
+#contact-form button {
+    background-color: #d98b2f; /* Cor do botão */
+    color: white; /* Cor do texto do botão */
+    border: none; /* Remove borda padrão */
+    border-radius: 20px; /* Bordas arredondadas */
+    padding: 10px 15px; /* Espaçamento interno */
+    cursor: pointer; /* Muda o cursor para indicar que é clicável */
+    transition: background-color 0.3s; /* Transição suave */
+}
+
+#contact-form button:hover {
+    background-color: #c57a2c; /* Cor do botão ao passar o mouse */
+}
+.image-container {
+    display: flex;            /* Flexbox para alinhar as imagens */
+    flex-direction: column;   /* Alinha as imagens em coluna uma abaixo da outra */
+    align-items: center;      /* Centraliza as imagens horizontalmente */
+    margin: 20px 0;          /* Espaço acima e abaixo do contêiner de imagens */
+}
+
+.image-container img {
+    width: 104%;             /* Faz com que cada imagem ocupe 100% da largura do contêiner */
+    height: auto;            /* Mantém a proporção das imagens */
+    object-fit: cover;       /* Corta a imagem de forma a preencher o contêiner sem distorção */
+    margin: 0px 0;         /* Margem vertical entre as imagens */
+}
+.container {
+    background: linear-gradient(to bottom right, #264b6e, #052e45); /* Degradê de azul */
+    padding: 20px;
+    border-radius: 0px;
+    margin-bottom: 0px;
+    padding: 20px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+}
+
+/* Estilos para a seção Sobre Nós */
+.sobre-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* Matriz 2x2 */
+    gap: 20px; /* Espaçamento entre os containers */
+}
+
+.sobre-card {
+    background: linear-gradient(to bottom right, #A9D0F5, #2A8CC3); /* Degradê de azul */
+    padding: 20px;
+    border-radius: 10px; /* Bordas arredondadas */
+    text-align: center; /* Centraliza o texto */
+    transition: transform 0.3s; /* Adiciona transição ao hover */
+}
+
+.sobre-card:hover {
+    transform: scale(1.05); /* Efeito de aumento ao passar o mouse */
+}
+
+h2 {
+    color: #0099ff;
+}
+.sobre-card h3 {
+    font-family: 'Orbitron', sans-serif; /* Usando a fonte futurista */
+}
+.sobre-card p {
+    font-family: 'Arial', sans-serif; /* Fonte padrão para o parágrafo */
+    color: #fff; /* Cor do texto */
+}
